@@ -1,0 +1,155 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #7D82B8;
+  margin: 0 auto;
+}
+
+header {
+    color: #E5C3D1;
+}
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #E5C3D1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#profile-image {
+  width: 175px;
+  height: 175px;
+  border-radius: 15px;
+  display: block;
+  margin-right: 130px;
+  margin-top: 40px;
+}
+
+.welcome {
+  width: 1300px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #E5C3D1;
+  padding-left: 25px;
+  /* border: 3px solid black; */
+}
+
+.welcome h1 {
+  font-family: Zilla Slab Highlight;
+  font-size: 45px;
+}
+
+.hello h2 {
+  font-family: Scope One;
+  font-size: 30px;
+  line-height: 25px;
+  color: #503460;
+}
+
+.manifesto {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E5C3D1;
+  margin-top: 70px;
+}
+
+.manifesto p {
+  font-family: Scope One;
+  font-size: 22px;
+  line-height: 17px;
+  color: #503460;
+}
+
+.info-box {
+  width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #E5C3D1;
+  /* border: 3px solid black; */
+}
+
+.info-box ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.info-box li {
+  float: left;
+  list-style-type: none;
+  width: 433px;
+}
+
+.info-box li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 3;
+  border: 1px solid #FF6D9E;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-family: Zilla Slab Highlight;
+  font-size: 25px;
+  z-index: 1;
+}
+
+.info-box .panels {
+  height: 450px;
+  position: relative;
+  clear: both;
+}
+
+.info-box article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 450px;
+  width: 100%;
+  padding: 10px;
+  color: #503460;
+  background-color: #E5C3D1;
+  font-family: Scope One;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.panels .areas .area {
+  list-style-type: disc;
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+}
+
+.panels .areas {
+  display: grid;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.panels h2 {
+  font-weight: 600;
+  text-shadow: 1px 1px 7px #F7A9A8;
+}
+
+.info-box .active-panel {
+  z-index: 2;
+}
+
+.info-box li :focus, .info-box li :hover {
+  background-color: #FF6D9E;
+  color: white;
+  font-weight: bold;
+}
+
+.info-box li :active {
+  background-color: #FF6D9E;
+  color: white;
+  font-weight: bold;
+}
