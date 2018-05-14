@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="This is Anton's personal webpage which he wrote alone :D">
+  <!-- http://ogp.me/ Open Graph Data provides even more metadata richness-->
   <title>Anton's Universe</title>
-  <link rel="shortcut icon" type="image/png" src="./images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
   <link href="./styles/styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900|Scope+One|Zilla+Slab+Highlight:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900|Scope+One:400,600,700,800,900|Zilla+Slab+Highlight:400,700" rel="stylesheet">
 
 </head>
 
@@ -21,8 +23,9 @@
     <div class="hello">
       <h1>Hello, Codaisseur Fam!</h1>
       <h2>I am Anton and that's my personal (web)page.</h2>
+      <!--  -->
       <h2>Let's meet, collaborate and code awesome stuff together.</h2>
-      <h2>May The <s>Force</s> Object Be With You!</h2>
+      <h2>May The <s>Force</s> Object Be With You<a href="https://www.spreadshirt.com/javascript+may+the+objet+be+with+you+men-s+fine+jersey+t-shirt-D1004038036" target="_blank">!</a></h2>
     </div>
 
     <div class="manifesto">
@@ -43,49 +46,51 @@
       <li><a href="#/pers">p e r s</a></li>
     </ul>
 
+
     <div class="panels">
-      <article class="active-panel">
+
+      <article class="active-panel proArticle">
         <h2>My Professional Life</h2>
-        <p>I've worked within corporates and startups.</p>
-        <p>Having worked at financial institutions back in Bulgaria, I realized banking and financial markerts don't fit my personality.</p>
-        <p>After 2 years in NL I started working with technology startups in Amsterdam and around, both as an employee and a consultant.</p>
-        <p>So far, I worked in the following areas:</p>
-        <ul class="areas">
-          <li class="area">3D Printing Software</li>
-          <li class="area">Ambient Intelligence (IoT+AI)</li>
-          <li class="area">Agritech/AgTech</li>
-          <li class="area">& more</li>
-        </ul>
+        <div class="everyDiv">
+          <p class="Div">Click on the button below and you will get a random fact about myself.</p>
+        </div>
+        <div class="button"><button class="proButton"> BUTTON </button></div>
       </article>
 
-      <article>
+      <article class="eduArticle">
         <h2>What I've Studied</h2>
-        <p>I have two Bachelor degrees.</p>
-        <p>I have a BSc in Industry Economics from UNWE, Sofia.</p>
-        <p>I also have BBA in Marketing from Saxion Hogeschool, Deventer.</p>
-        <p>The next <strong>useful</strong> education I will get is from Codaisseur.</p>
+        <div class="everyDiv">
+          <p class="Div">Click on the button below and you will get a random fact about myself.</p>
+        </div>
+        <div class="button"><button class="eduButton"> BUTTON </button></div>
       </article>
 
-      <article>
-        <img id="profile-image" src="./images/profile-photo.jpg" alt="That's me" align="right">
+      <article class="persArticle">
         <h2>Personal Stuff</h2>
-        <p>Originally, I am from Sofia, Bulgaria - born and raised.</p>
-        <p>I live and work in the Netherlands for the past 6 years already - yaaay!</p>
-        <p>I moved a lot within NL. I had lived in Deventer, Enschede and Rotterdam so far.</p>
-        <p>For the past two years I live in Amsterdam with my girlfriend.</p>
+        <div class="everyDiv">
+          <p class="Div">Click on the button below and you will get a random fact about myself.</p>
+        </div>
+        <div class="button"><button class="persButton"> BUTTON </button></div>
+        <!-- <div class="button"><button class="seeMeButton"> See Me </button></div> -->
+        <div id="profile-image"><img class="profile-image" src="./images/profile-photo.jpg" alt="That's me"></div>
       </article>
+
     </div>
     <!-- class="panels" ends -->
 
   </section>
   <!-- section class="info-box" ends -->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 
 <footer>
-  let's connect
+  <div class="footer">
+    <a href="https://www.linkedin.com/in/antonmladenov/" target="_blank"><img class="social" src="./images/linkedin.png" alt="LinkedIn"></a>
+    <a href="https://pinterest.com/antonmladenovofficial/" target="_blank"><img class="social" src="./images/pinterest.png" alt="Pinterest"></a>
+    <a href="https://twitter.com/aantonka" target="_blank"><img class="social" src="./images/twitter.png" alt="Twitter"></a>
+    <a href="https://www.meetup.com/members/187309450/" target="_blank"><img class="social" src="./images/meetup.png" alt="Meetup"></a>
+  </div>
 </footer>
 
 </html>
